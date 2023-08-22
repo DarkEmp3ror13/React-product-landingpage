@@ -1,0 +1,36 @@
+.Secondpage {
+    height: 100vh;
+    width: auto;
+}
+
+.Headline {
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-left: 150px;
+    font-family: 'Public Sans', sans-serif;
+}
+
+h1 {
+    height: 10vh;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+p {
+    height: 10vh;
+    font-weight: 300;
+    color: hsl(233, 8%, 62%)
+}
+
+.Cards {
+    height: 50vh;
+    display: flex;
+    height: 50vh;
+    width: 100%;
+    gap: 30px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 100px;
+}

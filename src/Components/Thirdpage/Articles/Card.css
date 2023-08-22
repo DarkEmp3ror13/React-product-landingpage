@@ -1,0 +1,28 @@
+.CardArticle {
+    height: 10h;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+.CardArticle img {
+    height: 30vh;
+    width: auto;
+}
+
+.CardArticle h4 {
+    margin-top: 30px;
+    font-family: 'Public Sans', sans-serif;
+    color: hsl(233, 8%, 62%);
+}
+
+.CardArticle h2 {
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
+}
+
+.CardArticle p {
+    font-family: 'Public Sans', sans-serif;
+}

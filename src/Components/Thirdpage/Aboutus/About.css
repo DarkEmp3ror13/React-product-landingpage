@@ -1,0 +1,43 @@
+.Aboutus {
+    background-color: hsl(233, 26%, 24%);
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: space-around;
+    height: 30vh;
+    width: 98vw
+}
+
+.logo-section {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+
+.logo-section .socials {
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.main-logo img {
+    filter: brightness(0) invert(1);
+ 
+}
+
+.Aboutus li {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.copyright {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 30px;
+}
